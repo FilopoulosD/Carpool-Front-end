@@ -1,3 +1,35 @@
-p{
-    color: red;
+.gear{
+    width: 100px;
+    height: 50px;
+    color:grey;
+    font-size:36px;
+}
+.frame{
+    background-color: #93D8A2;
+    width: 360px;
+    height: 640px;
+}
+.bg{
+    background-color: #93D8A2;
+}
+.col-md-2-bg{
+    background-color: red;
+}
+button{
+    font-family: 'Kalam', cursive;
+}
+.bottom-navbar{
+    padding: 0;
+}
+.bottom-nav-left-button{
+    color:black;
+    background-color: #a5a5a5;
+}
+.bottom-nav-right-button{
+    color:black;
+    background-color: #a5a5a5;
+}
+.bottom-nav-middle-button{
+    color:black;
+    background-color: #e0e0e0;
 }
