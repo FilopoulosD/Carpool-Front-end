@@ -1,8 +1,13 @@
 .Kalam{
     font-family: 'Kalam', cursive;
+    font-size: 18px;
 }
 .Montserrat{
     font-family: 'Montserrat', cursive;
+    font-size: 16px;
+}
+body{
+    background-color: #93D8A2;
 }
 .gear{
     width: 100px;
@@ -10,20 +15,10 @@
     color:grey;
     font-size:36px;
 }
-.frame{
-    background-color: #93D8A2;
-    width: 360px;
-    height: 640px;
-}
-.bg{
-    background-color: #93D8A2;
-}
-.col-md-2-bg{
-    background-color: red;
-}
-
 .bottom-navbar{
     padding: 0;
+    position: fixed;
+    bottom: 0;
 }
 .bottom-nav-left-button{
     color:black;
@@ -37,13 +32,6 @@
     color:black;
     background-color: #e0e0e0;
 }
-.bottom-logo{
-    width: 40%;
-    padding: 0px;
-    border: 0px;
-    position: center;
-    
-}
 .avatar {
     width: 70px;
     height: 70px;
@@ -51,6 +39,6 @@
     padding: 0px;
     border: 0px;
   }
- .name{
-     text-align: right;
- }
+ .profile-name{
+    text-align: center;
+}
