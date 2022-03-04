@@ -21,16 +21,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <!--Local Files-->
-    <link rel="stylesheet" href="/past_rides.css">
+    <link rel="stylesheet" href="/past-rides/past_rides.css">
     <title>Past Rides</title>
 </head>
 <body>
-    
+
+    <!--Header-->
+
     <div class="container-fluid marg0 pad0 white">
         
         <div class="row header border_at_bottom marg0">
             <div class="col-4">
-                <a href="#" class="previous round back_button">&#10094;</a>
+                <a href="#" class="back_button">&#10094;</a>
             </div>
             <div class="col-4">
                 <p class="Kalam header_title">Past Rides</p>
@@ -42,22 +44,42 @@
         </div>
     </div>
 
-    <div class="row bottom-navbar marg0">
-        <div class="col-4 pad0 ">
-            <button type="button" class="btn btn-secondary bottom-nav-left-button block Montserrat">Profile</button>
-        </div>
-        <div class="col-4 pad0 ">
-            <button type="button" class="btn btn-secondary block bottom-nav-middle-button Montserrat">Past Rides</button>
-        </div>
-        <div class="col-4 pad0 ">
-            <button type="button" class="btn btn-secondary block bottom-nav-right-button Montserrat Montserrat">Settings</button>
+    <!--Welcome Message-->
+
+    <div class="container">
+        <div class="row">
+            <p class="Montserrat welcome-message">You have 3 past rides!</p> 
         </div>
     </div>
-   
-    
-    
 
-    
-    
+    <!--Rides-->
+
+    <div class="container-fluid pad0 marg0">
+        <div class="row ride marg0 pad0">
+            <div class="col ">
+                <img src="/photos/img_avatar.png" alt="Avatar" class=" float-start mx-auto d-block ride-avatar">
+                <a href="#" class="dropdown-button float-end">&#709;</a>
+                &#709;
+            </div>
+        </div>
+    </div>
+
+
+
+<!--Bottom Menu-->
+
+    <div class="container pad0 marg0">
+        <div class="row bottom-navbar marg0">
+            <div class="col-4 pad0 ">
+                <button type="button" class="btn btn-secondary bottom-nav-left-button block Montserrat">Profile</button>
+            </div>
+            <div class="col-4 pad0 ">
+                <button type="button" class="btn btn-secondary block bottom-nav-middle-button Montserrat">Past Rides</button>
+            </div>
+            <div class="col-4 pad0 ">
+                <button type="button" class="btn btn-secondary block bottom-nav-right-button Montserrat Montserrat">Settings</button>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
