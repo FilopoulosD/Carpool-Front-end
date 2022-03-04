@@ -12,7 +12,7 @@ body{
 .header{
     background-color: white;
     height: 40px;
-    
+    width: 100%;   
 }
 .header_title{
     text-align: center;
@@ -32,6 +32,7 @@ body{
 .bottom-navbar{
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 .bottom-nav-left-button{
     color:black;
@@ -78,4 +79,7 @@ body{
 }
 .pad0{
     padding: 0px;
+}
+.marg0{
+    margin: 0px;
 }
