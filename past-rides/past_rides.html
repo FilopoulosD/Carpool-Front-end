@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Glyphicon-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -20,8 +22,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <!--Local Files-->
     <link rel="stylesheet" href="/past-rides/past_rides.css">
+    <script src="./past_rides.js"></script>
     <title>Past Rides</title>
 </head>
 <body>
@@ -29,10 +33,9 @@
     <!--Header-->
 
     <div class="container-fluid marg0 pad0 white">
-        
         <div class="row header border_at_bottom marg0">
             <div class="col-4">
-                <a href="#" class="back_button">&#10094;</a>
+                <button class="drop-down-ride arrow left">
             </div>
             <div class="col-4">
                 <p class="Kalam header_title">Past Rides</p>
@@ -48,22 +51,113 @@
 
     <div class="container">
         <div class="row">
-            <p class="Montserrat welcome-message">You have 3 past rides!</p> 
+            <p class="Montserrat welcome-message">You have 4 past rides!</p> 
         </div>
     </div>
 
-    <!--Rides-->
+    <!--Ride 1-->
 
     <div class="container-fluid pad0 marg0">
         <div class="row ride marg0 pad0">
-            <div class="col ">
+            <div class="col-2">
                 <img src="/photos/img_avatar.png" alt="Avatar" class=" float-start mx-auto d-block ride-avatar">
-                <a href="#" class="dropdown-button float-end">&#709;</a>
-                &#709;
+            </div>
+            <div class="col-2">
+                <p class="ride-start Montserrat"> Start: <br>Patra</p>
+            </div>
+            <div class="col-4">
+                <p class="ride-destination Montserrat"> Destination: <br>Athens</p>
+            </div>
+            <div class="col-3">
+                <p class="ride-date Montserrat">Date:<br>5/12/2019</p>
+            </div>
+            <div class="col-1">
+                <button class="drop-down-ride arrow down">
+                </button>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row ride-margin pad0">
+        </div>
+    </div>
+    <!--Ride 2-->
 
+    <div class="container-fluid pad0">
+        <div class="row ride marg0 pad ride-margin">
+            <div class="col-2">
+                <img src="/photos/img_avatar.png" alt="Avatar" class=" float-start mx-auto d-block ride-avatar">
+            </div>
+            <div class="col-2">
+                <p class="ride-start Montserrat"> Start: <br>Athens</p>
+            </div>
+            <div class="col-4">
+                <p class="ride-destination Montserrat"> Destination: <br>Patra</p>
+            </div>
+            <div class="col-3">
+                <p class="ride-date Montserrat">Date:<br>9/11/2019</p>
+            </div>
+            <div class="col-1">
+                <button class="drop-down-ride arrow down">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ride-margin pad0">
+        </div>
+    </div>
+
+    <!--Ride 3-->
+
+    <div class="container-fluid pad0 marg0">
+        <div class="row ride marg0 pad0">
+            <div class="col-2">
+                <img src="/photos/img_avatar.png" alt="Avatar" class=" float-start mx-auto d-block ride-avatar">
+            </div>
+            <div class="col-2">
+                <p class="ride-start Montserrat"> Start: <br> Patra</p>
+            </div>
+            <div class="col-4">
+                <p class="ride-destination Montserrat"> Destination: <br>Kalamata</p>
+            </div>
+            <div class="col-3">
+                <p class="ride-date Montserrat">Date:<br>3/7/2021</p>
+            </div>
+            <div class="col-1">
+                <button class="drop-down-ride arrow down">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ride-margin pad0"> 
+        </div>
+    </div>
+
+    <!--Ride 4-->
+
+    <div class="container-fluid pad0 marg0">
+        <div class="row ride marg0 pad0">
+            <div class="col-2">
+                <img src="/photos/img_avatar.png" alt="Avatar" class=" float-start mx-auto d-block ride-avatar">
+            </div>
+            <div class="col-2">
+                <p class="ride-start Montserrat"> Start: <br> Kalamata</p>
+            </div>
+            <div class="col-4">
+                <p class="ride-destination Montserrat"> Destination: <br>Patra</p>
+            </div>
+            <div class="col-3">
+                <p class="ride-date Montserrat">Date:<br>3/8/2022</p>
+            </div>
+            <div class="col-1">
+                <button class="drop-down-ride arrow down">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ride-margin pad0">   
+        </div>
+    </div>
 
 
 <!--Bottom Menu-->
