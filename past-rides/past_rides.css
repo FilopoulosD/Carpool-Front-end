@@ -114,9 +114,9 @@ body{
         display: inline-block;
         padding: 3px;
 }
-.down{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     margin-top: 30px;
 }
 .left {
