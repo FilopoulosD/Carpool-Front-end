@@ -91,50 +91,31 @@ body{
     cursor: pointer;
     text-align: center;
 }
-/*Rides*/
-.ride{
-    background-color: white;
-    border-radius: 40px;
-    height: 70px;
-    width: 100%; 
-}
-.ride-avatar{
-    width: 50px;
-    height: 50px;
+
+/*Profile photo, review stars/button & personal info*/
+.profile-photo{
+    width: 83px;
+    height: 83px;
     border-radius: 50%;
     padding: 0px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 5px;
     border: 0px;
 }
-.ride-start{
-    font-size: 13px;
-    margin-top: 15px;
+.checked {
+    color: orange;
+  }
+.center{
     text-align: center;
-}
-.ride-destination{
-    font-size: 13px;
-    margin-top: 15px;
-    text-align: center;
-}
-.ride-date{
-    font-size: 13px;
-    margin-top: 15px;
-    text-align: center;
-}
-.ride-margin{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-/*Welcome Message*/
-.welcome-message{
-    text-align: center;
-    margin-top: 23px;
-    margin-bottom: 60px;
     font-size: 18px;
 }
-
-
-
-
+.pers-info{
+    font-size: 18px;
+    text-align: center;
+}
+.bio{
+    text-align: center;
+    font-size: 14px;
+}
+.review-button{
+    margin-top: 40px;
+}
