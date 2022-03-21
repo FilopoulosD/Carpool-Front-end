@@ -1,3 +1,4 @@
+/*General Css*/
 .Kalam{
     font-family: 'Kalam', cursive;
     font-size: 18px;
@@ -9,6 +10,7 @@
 body{
     background-color: #93D8A2;
 }
+/*Logo*/
 .logo{
     width: 50%;
     height: auto;
@@ -17,15 +19,16 @@ body{
     border-right: solid black 1px;
     margin-bottom: 20px;
 }
-.message{
-    text-align: center;
-    font-size: 22px;
-}
+/*Sign Up Window*/
 .signup{
     background-color: white;
     border-radius: 40px;
     height: 620px;
     padding-top: 20px;
+}
+.register-message{
+    text-align: center;
+    font-size: 22px;
 }
 .signup-button{
     border-radius: 40px;
