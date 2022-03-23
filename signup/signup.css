@@ -23,7 +23,7 @@ body{
 .signup{
     background-color: white;
     border-radius: 40px;
-    height: 620px;
+    
     padding-top: 20px;
 }
 .register-message{
@@ -46,4 +46,5 @@ body{
     border: none;
     padding: 3px 15px 3px 15px;
     margin-top: 0px;
+    margin-bottom: 10px;
 }
